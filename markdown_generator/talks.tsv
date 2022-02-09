@@ -1,0 +1,18 @@
+title	type	url_slug	venue	date	location	talk_url	description
+A technique for rational model order reduction of parametric problems lacking uniform inf-sup stability	Conference talk	talk-gamm	GAMM 2019	2019-02-19	Vienna, A		
+A technique for rational model order reduction of parametric problems lacking uniform inf-sup stability	Conference talk	talk-iciam	ICIAM 2019	2019-07-16	Valencia, E		
+Interpolatory rational model order reduction of parametric problems lacking uniform inf-sup stability	Conference talk	talk-enumath	ENUMATH 2019	2019-10-02	Egmond aan Zee, NL		
+Non-intrusive model reduction of parametric frequency response problems via minimal rational interpolation	Conference talk (virtual)	talk-icosahom	ICOSAHOM 2020/2021	2021-07-16	Vienna, A		
+Non-intrusive model reduction of parametric frequency-response problems -- with applications to UQ	Conference talk	talk-simai	SIMAI 2020+2021	2021-08-30	Parma, I		
+`An efficient algorithm for Pad&eacute;-type approximation of the frequency response for the Helmholtz problem		poster-morepas	MoRePaS IV	2018-04-10	Nantes, F		
+`An efficient algorithm for Pad&eacute;-type approximation of the frequency response for the Helmholtz problem		poster-swiss	Swiss Numerics Day 2018	2018-04-20	Zurich, CH		
+Frequency-domain non-intrusive greedy Model Order Reduction based on minimal rational approximation		poster-scee	SCEE 2020	2020-02-17	Eindhoven, NL		
+Frequency-domain non-intrusive greedy Model Order Reduction based on minimal rational approximation		poster-morss	MORSS 2020	2020-09-08	Lausanne, CH		
+Fast Least-Squares Pad&eacute; approximation of self-adjoint problems with meromorphic structure	Seminar	talk-mathicse1	MATHICSE retreat	2018-06-19	Sainte-Croix, CH		
+Fast Least-Squares Pad&eacute; approximation of self-adjoint problems with meromorphic structure	Workshop talk	talk-drwa	DRWA	2018-09-11	Alba di Canazei, I		
+Polynomial approximation of resonance manifolds	Short seminar	talk-mathicse2	MATHICSE retreat	2019-06-11	Champ&eacute;ry, CH		
+Pad&eacute; approximation: a quick overview	Seminar (virtual)	talk-csqi1	CSQI talks	2020-04-17	Lausanne, CH		
+From Pad&eacute; approximation to rational interpolation	Seminar (virtual)	talk-csqi2	CSQI talks	2020-06-08	Lausanne, CH		
+Minimal rational approximation	Seminar (virtual)	talk-csqi3	CSQI talks	2020-10-02	Lausanne, CH		
+Minimal rational approximation: a model reduction tool for parametrized PDEs with resonances	Seminar (virtual)	talk-vienna	PDE afternoons	2020-10-21	Vienna, A		
+Matching-based pMOR for dynamical systems	Seminar (virtual)	talk-csqi4	CSQI talks	2021-06-04	Lausanne, CH		
