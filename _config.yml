@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Davide Pradovera"
+title                    : "Davide Pradovera&apos;s personal website"
 title_separator          : "-"
 name                     : &name "Davide Pradovera"
-description              : &description "Davide Pradovera&apos;s personal academic website"
+description              : &description "Davide Pradovera&apos;s personal website"
 url                      : https://pradovera.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pradovera/pradovera.github.io"

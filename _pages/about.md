@@ -15,6 +15,8 @@ Before that, I got my Master's degree at EPF Lausanne, with a thesis on "Randomi
 
 I have also contributed to the organization of the [model order reduction summer school 2020](https://archiveweb.epfl.ch/morss2020.epfl.ch/), a virtual event hosted at EPFL with the objective of disseminating knowledge on model order reduction.
 
+I love teaching, and I find it especially rewarding to help students discover the "truth" hidden behind the printed words on the textbook.
+
 Research interests
 =====
 
@@ -30,7 +32,7 @@ My research interests lie at the intersection of:
 
 - scientific computing (high-performance and parallel programming)
 
-Being an _applied computational mathematician_, my research work so far has been characterized by a balance between theory (possibility of approximation, convergence, stability) and applications (optimal design problems in electrical and mechanical engineering, simulation of wave propagation, algorithmic efficiency).
+Being an _applied computational mathematician_, my research work so far has been characterized by a balance between theory (possibility of approximation, convergence, stability) and applications (optimal design problems in electrical and mechanical engineering, simulation of wave propagation). In all of this, I have strived for algorithmic efficiency and open-source coding: see [here](https://c4science.ch/source/RROMPy/) for the open-source MOR library `RROMPy` that I have developed during my Ph.D. and [here](https://zenodo.org/search?q=%22Pradovera,%20Davide%22) for some of my open-source contributions on ZENODO.
 
 
 

@@ -2,13 +2,16 @@
 main:
   - title: "Publications"
     url: /publications/
+    icon: "fas fa-fw fa-book"
 
   - title: "Talks"
     url: /talks/
+    icon: "fas fa-fw fa-users"
 
   - title: "Teaching"
     url: /teaching/
+    icon: "fas fa-fw fa-chalkboard-teacher"
 
   - title: "CV"
     url: /cv/
-
+    icon: "fas fa-fw fa-clipboard-list"

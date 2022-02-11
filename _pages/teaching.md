@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-As part of my Ph.D. training, I have contributed to teaching the following courses. My involvement includes, among other things, preparation of course and exercise material, as well as preparation and grading of weekly assignments and exams.
+As part of my Ph.D. training, I have contributed to the following courses as teaching assistant. My involvement includes, among other things, preparation of course and exercise material, as well as preparation and grading of weekly assignments and exams.
 
 {% for post in site.teaching reversed %}
   {% if post.label == "main" %}
