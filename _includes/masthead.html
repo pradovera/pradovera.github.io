@@ -6,7 +6,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/"><i class="fas fa-fw fa-home"></i> {{ site.name }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/"><i class="fas fa-fw fa-home"></i> About me</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -14,10 +14,11 @@
               {% assign domain = base_path %}
             {% endif %}
             {% if link.icon %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.title }}</a></li>
+              {% assign icon = link.icon %}
             {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% assign icon = "fas fa-fw fa-square" %}
             {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"><i class="{{ icon }}"></i> {{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

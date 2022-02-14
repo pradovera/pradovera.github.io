@@ -40,23 +40,47 @@
 
         {% if post.collection == 'teaching' %}
             {% if post.date %}
-              <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+              <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
+            {% elsif post.year %}
+              <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
             {% else %}
               <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
             {% endif %}
         {% elsif post.collection == 'publications' %}
           <p class="archive__item-excerpt" itemprop="description">{{ post.author | markdownify }} </p>
-          {% if post.label and post.label != "main" %}
-            {% if post.date %}
-              <p>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.status %}
+            {% if post.venue %}
+              {% if post.date %}
+                <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+              {% elsif post.year %}
+                <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.year }}</p>
+              {% else %}
+                <p>{{ post.status }} in <i>{{ post.venue }}</i></p>
+              {% endif %}
             {% else %}
-              <p>{{ post.venue }} </p>
+              {% if post.date %}
+                <p>{{ post.status }}, {{ post.date | date: "%Y" }}</p>
+              {% elsif post.year %}
+                <p>{{ post.status }}, {{ post.year }}</p>
+              {% else %}
+                <p>{{ post.status }}</p>
+              {% endif %}
             {% endif %}
           {% else %}
-            {% if post.date %}
-              <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% if post.venue %}
+              {% if post.date %}
+                <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+              {% elsif post.year %}
+                <p><i>{{ post.venue }}</i>, {{ post.year }}</p>
+              {% else %}
+                <p><i>{{ post.venue }}</i></p>
+              {% endif %}
             {% else %}
-              <p>Published in <i>{{ post.venue }}</i> </p>
+              {% if post.date %}
+                <p>{{ post.date | date: "%Y" }}</p>
+              {% elsif post.year %}
+                <p>{{ post.year }}</p>
+              {% endif %}
             {% endif %}
           {% endif %}
         {% elsif post.date %}

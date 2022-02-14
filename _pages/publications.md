@@ -5,8 +5,26 @@ permalink: /publications/
 author_profile: true
 ---
 
+See also my [ORCID]({{ site.author.orcid }}) and [Google Scholar]({{ site.author.googlescholar }}) profiles.
+
+&nbsp;
+
+Journal articles
+=====
+
 {% for post in site.publications reversed %}
   {% if post.label == "main" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+&nbsp;
+
+Conference proceedings
+=====
+
+{% for post in site.publications reversed %}
+  {% if post.label == "proceedings" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
