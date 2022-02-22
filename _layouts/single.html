@@ -37,6 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
+          <p class="archive__item-excerpt" itemprop="description">{{ page.author | markdownify }} </p>
           {% if page.status %}
             {% if page.venue %}
               {% if page.date %}
