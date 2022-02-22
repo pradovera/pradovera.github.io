@@ -30,7 +30,7 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
     </h3>
     
@@ -38,42 +38,16 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-      <p class="archive__item-excerpt" itemprop="description">{{ post.author | markdownify }} </p>
-      {% if post.status %}
-        {% if post.venue %}
-          {% if post.date %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.year }}</p>
-          {% else %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i></p>
-          {% endif %}
-        {% else %}
-          {% if post.date %}
-            <p>{{ post.status }}, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p>{{ post.status }}, {{ post.year }}</p>
-          {% else %}
-            <p>{{ post.status }}</p>
-          {% endif %}
-        {% endif %}
-      {% else %}
-        {% if post.venue %}
-          {% if post.date %}
-            <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p><i>{{ post.venue }}</i>, {{ post.year }}</p>
-          {% else %}
-            <p><i>{{ post.venue }}</i></p>
-          {% endif %}
-        {% else %}
-          {% if post.date %}
-            <p>{{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p>{{ post.year }}</p>
-          {% endif %}
-        {% endif %}
-      {% endif %}
+    {% if post.date %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
+    {% elsif post.year %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
+    {% else %}
+      <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
+    {% endif %}
+    {% if post.student %}
+      <p> Student: {{ post.student }} </p>
+    {% endif %}
     
     {% if post.doi %}
       <p>DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
@@ -81,11 +55,11 @@
       <p>URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
-    {% if post.excerpt %}
+    {% if post.summary %}
         <h6 class="archive__item-excerpt">
           <details>
               <summary>Abstract</summary>
-              <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+              <p class="archive__item-excerpt" itemprop="description">{{ post.summary | markdownify }}</p>
           </details>
         </h6>
     {% endif %}
