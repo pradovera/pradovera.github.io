@@ -88,6 +88,8 @@ layout: default
           <p>URL: <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% endif %}
     
+        {{ content }}
+
         {% if page.excerpt %}
         <p class="archive__item-excerpt" itemprop="description">{{ page.excerpt | markdownify }}</p>
         {% endif %}
