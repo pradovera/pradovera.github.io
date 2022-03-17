@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts reversed %}
+{% for post in site.news reversed %}
   {% capture year %}{{ post.year }}{% endcapture %}
   {% if year != written_year %}
     <div class="{{ include.type | default: "list" }}__item">
