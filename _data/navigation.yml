@@ -12,6 +12,10 @@ main:
     url: /teaching/
     icon: "fas fa-fw fa-chalkboard-teacher"
 
+  - title: "News"
+    url: /news/
+    icon: "fas fa-fw fa-rss"
+
   - title: "CV"
     url: /cv/
     icon: "fas fa-fw fa-clipboard-list"
