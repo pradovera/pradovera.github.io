@@ -41,15 +41,15 @@ author:
   name             : "Davide Pradovera"
   avatar           : "profile.png"
   bio              : "Post-doctoral researcher in Computational Math"
-  location         : "MA B2 435, Station 8"
-  location2        : "1015 Lausanne, CH"
-  employer         : "EPFL"
+  location         : "09.128, Oskar-Morgenstern-Platz 1"
+  location2        : "1090 Vienna, A"
+  employer         : "University of Vienna"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
   email            : "davidepradovera@gmail.com"
-  email2           : "davide.pradovera@epfl.ch"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "http://people.epfl.ch/davide.pradovera"
+  email2           : #"davide.pradovera@univie.ac.at"
+  researchgate     : 
+  uri              : #"http://people.epfl.ch/davide.pradovera"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -189,7 +189,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Vienna # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
