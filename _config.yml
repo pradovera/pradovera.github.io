@@ -41,15 +41,16 @@ author:
   name             : "Davide Pradovera"
   avatar           : "profile.png"
   bio              : "Post-doctoral researcher in Computational Math"
+  address          : "Oskar-Morgenstern-Platz 1, 1090 Vienna"
   location         : "09.128, Oskar-Morgenstern-Platz 1"
   location2        : "1090 Vienna, Austria"
   employer         : "University of Vienna"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
-  email            : "davidepradovera@gmail.com"
-  email2           : "davide.pradovera@univie.ac.at"
+  email_work       : "davide.pradovera@univie.ac.at"
+  email_private    : "davidepradovera@gmail.com"
   researchgate     : 
-  uri              : #"http://people.epfl.ch/davide.pradovera"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -60,13 +61,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
   orcid            : "http://orcid.org/0000-0003-0398-1580"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          :

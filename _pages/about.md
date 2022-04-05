@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Since April 2022, I have been a university assistant and post-doctoral researcher at the University of Vienna in the "Chair of Numerics of PDEs" group, with Prof. [Ilaria Perugia](https://mat.univie.ac.at/~perugia/). My main interests here are the development and analysis of model order reduction algorithms for the surrogate modeling of parametric time- and frequency-domain wave-propagation applications, and, more generally, the numerical modeling and approximation of such problems.
+Since April 2022, I have been a university assistant and post-doctoral researcher at the University of Vienna in the "[Numerics of PDEs](https://www.mat.univie.ac.at/~perugia/index.html)" group, with Prof. Ilaria Perugia. My main interests here are the development and analysis of model order reduction algorithms for the surrogate modeling of parametric time- and frequency-domain wave-propagation applications, and, more generally, the numerical modeling and approximation of such problems.
 
 Before that, I was a post-doctoral researcher at EPF Lausanne in the "Scientific Computing and Uncertainty Quantification" ([CSQI](https://www.epfl.ch/labs/csqi/)) group, with Prof. Fabio Nobile.
 

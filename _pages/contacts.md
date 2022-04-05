@@ -1,8 +1,15 @@
+---
+title: "Contacts"
+permalink: /contacts/
+author_profile: false
+---
+
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -16,18 +23,15 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
       {% if author.location %}
-          {% if author.location2 %}
-            <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</a></li>
-            <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location2 }}</a></li>
-          {% else %}
-            <li><a href="https://www.google.com/maps/search/{{ author.location }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</a></li>
-          {% endif %}
+        <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</a></li>
+      {% endif %}
+      {% if author.location2 %}
+        <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location2 }}</a></li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>

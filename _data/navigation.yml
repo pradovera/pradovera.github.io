@@ -19,3 +19,7 @@ main:
   - title: "CV"
     url: /cv/
     icon: "fas fa-fw fa-clipboard-list"
+
+  - title: "Contacts"
+    url: /contacts/
+    icon: "fas fa-fw fa-address-card"
