@@ -44,4 +44,15 @@ Others
   {% endif %}
 {% endfor %}
 
+&nbsp;
+
+Attendance at events
+=====
+
+{% for post in site.talks reversed %}
+  {% if post.label == "attendance" %}
+    {% include archive-single-attendance.html %}
+  {% endif %}
+{% endfor %}
+
 

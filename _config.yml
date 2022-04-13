@@ -22,12 +22,10 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false #change to true to add link to talkmap on talks page
 
 # SEO Related
-google_site_verification :
+google_site_verification : "tVr-dhTkcECdAZ_iY9dc3lwmbzGWqc9HgeUoUmnWmAM"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
-
 
 # Analytics
 analytics:
@@ -50,7 +48,7 @@ author:
   email_work       : "davide.pradovera@univie.ac.at"
   email_private    : "davidepradovera@gmail.com"
   researchgate     : 
-  uri              :
+  uri              : "https://ufind.univie.ac.at/en/person.html?id=1002082"
   bitbucket        :
   codepen          :
   dribbble         :

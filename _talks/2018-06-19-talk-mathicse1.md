@@ -5,6 +5,7 @@ type: "Seminar"
 permalink: /talks/2018-06-19-talk-mathicse1
 venue: "MATHICSE retreat"
 date: 2018-06-19
+date2: 2018-06-21
 location: "Sainte-Croix, CH"
 label: "seminar"
 ---

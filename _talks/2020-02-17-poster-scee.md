@@ -4,7 +4,9 @@ collection: talks
 type: "Poster"
 permalink: /talks/2020-02-17-poster-scee
 venue: "SCEE 2020"
-date: 2020-02-17
+date: 2020-02-16
+date2: 2020-02-20
 location: "Eindhoven, NL"
 label: "poster"
+link: https://www.scee-conferences.org/pages/scee-2020
 ---
