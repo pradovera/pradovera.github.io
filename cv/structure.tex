@@ -60,17 +60,24 @@
 \subsectionfont{\bf} % Set font options for subsections
 \subsubsectionfont{\mdseries\upshape\bfseries\normalsize} % Set font options for subsubsections
 
+\newcommand{\startseclist}{\phantom{a}\vspace{-\baselineskip}}
+
 %----------------------------------------------------------------------------------------
 %	MARGIN YEARS
 %----------------------------------------------------------------------------------------
 
-\usepackage{marginnote} % Required to output text in the margin
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
 
-\newcommand{\years}[1]{\marginnote{\hspace{-\leftskip}\hfill\scriptsize #1~$[$}} % New command for adding years to the margin
-\newcommand{\yearsplus}[1]{\marginnote{\hspace{-\leftskip}\hfill\scriptsize #1~\raisebox{1pt}{$\lceil$}}} % New command for adding years to the margin
-\newcommand{\yearsminus}{\marginnote{\hspace{-\leftskip}\hfill\scriptsize \raisebox{-1pt}{$\lfloor$}}} % New command for adding years to the margin
-\renewcommand*{\raggedleftmarginnote}{} % Left-align the years in the margin
-\setlength{\marginparsep}{-1pt} % Move the margin content closer to the text
+\usepackage{marginnote} % Required to output text in the margin
+\newcommand{\years}[1]{\strut\marginnote{{\scriptsize #1~}$[$}}
+\newcommand{\yearsplus}[1]{\strut\marginnote{{\scriptsize #1~}$\lceil$}}
+\newcommand{\yearszero}{}%\strut\marginnote{$|\hspace{.1em}$}}
+\newcommand{\yearsminus}{\strut\marginnote{$\lfloor$}}
+\setlength{\marginparsep}{0pt} % Move the margin content closer to the text
 \reversemarginpar % Margin text to be output into the left margin instead of the default right margin
 
 %----------------------------------------------------------------------------------------
