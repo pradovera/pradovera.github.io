@@ -8,5 +8,5 @@ date: 2019-07-15
 date2: 2019-07-19
 location: "Valencia, E"
 label: "main"
-link: https://iciam2019.com/
+linkvenue: https://iciam2019.com/
 ---

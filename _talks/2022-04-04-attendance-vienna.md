@@ -8,5 +8,5 @@ date: 2020-04-04
 date2: 2020-04-08
 location: "Vienna, A"
 label: "attendance"
-link: https://www.esi.ac.at/events/e423/
+linkvenue: https://www.esi.ac.at/events/e423/
 ---

@@ -39,3 +39,14 @@ Pending publications
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+&nbsp;
+
+Theses and project reports
+=====
+
+{% for post in site.publications reversed %}
+  {% if post.label == "thesis" %}
+    {% include archive-single-thesis.html %}
+  {% endif %}
+{% endfor %}`

@@ -8,5 +8,6 @@ date: 2018-04-09
 date2: 2018-04-13
 location: "Nantes, F"
 label: "poster"
-link: https://morepas2018.sciencesconf.org/
+linkvenue: https://morepas2018.sciencesconf.org/
+link: https://www.scienceopen.com/hosted-document?doi=10.14293/P2199-8442.1.SOP-MATH.HWEDJF.v1
 ---

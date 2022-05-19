@@ -7,5 +7,6 @@ venue: "Swiss Numerics Day 2018"
 date: 2018-04-20
 location: "Zurich, CH"
 label: "poster"
-link: https://math.ethz.ch/sam/news-and-events/conferences-and-workshops/archive/swiss-numerics-day.html
+linkvenue: https://math.ethz.ch/sam/news-and-events/conferences-and-workshops/archive/swiss-numerics-day.html
+link: https://www.scienceopen.com/hosted-document?doi=10.14293/P2199-8442.1.SOP-MATH.HWEDJF.v1
 ---

@@ -37,29 +37,18 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-
-    {% if post.date %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
-    {% elsif post.year %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
-    {% else %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
-    {% endif %}
-    {% if post.student %}
-      <p> Student: {{ post.student }} </p>
-    {% endif %}
-    
+      <p>{{ post.kind }}{% if post.supervisor %}, supervised by {{ post.supervisor }}{% endif %}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
     {% if post.doi %}
       <p>DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
     {% elsif post.paperurl %}
       <p>URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
-    {% if post.summary %}
+    {% if post.excerpt %}
         <h6 class="archive__item-excerpt">
           <details>
               <summary>Abstract</summary>
-              <p class="archive__item-excerpt" itemprop="description">{{ post.summary | markdownify }}</p>
+              <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
           </details>
         </h6>
     {% endif %}

@@ -1,0 +1,16 @@
+---
+title: "Model order reduction based on functional rational approximants for parametric PDEs with meromorphic structure"
+collection: publications
+permalink: /publication/2021-rational
+excerpt: 'Many engineering fields rely on frequency-domain dynamical systems for the mathematical modeling of physical (electrical/mechanical/etc.) structures. With the growing need for more accurate and reliable results, the computational burden incurred by frequency sweeps has increased too: in many practical cases, a direct frequency-response analysis over a wide range of frequencies is prohibitively expensive. In this respect, model order reduction (MOR) methods are very appealing, as they allow to replace the costly solves of the original problem with a cheap-to-evaluate surrogate model.<br>
+In this work, we describe a MOR approach, dubbed &quot;minimal rational interpolation&quot; (MRI), that builds a rational interpolant of the frequency response of the dynamical system. In MRI, we build a surrogate model in a data-driven fashion, starting from only few (very expensive) solves of the original problem at well-chosen frequencies. Notably, we do not need any knowledge of (nor access to) the underlying structure of the original problem, so that MRI can be described as a &quot;non-intrusive&quot; method. We perform a theoretical analysis of MRI, showing that it converges to the exact frequency response in a quasi-optimal way, in an &quot;approximation theory&quot; sense. We also describe how this approach can be complemented by adaptive sampling strategies, which, relying on \emph{a posteriori} error estimators, automatically select the &quot;best&quot; sampling frequencies.<br>
+Oftentimes, the underlying problem does not depend on frequency alone, but also on additional parameters, which might represent uncertain features of the physical system or design parameters that have to be optimized. This is the so-called &quot;parametric&quot; case, which is much more complex than the non-parametric one, especially if a modest number of parameters is involved. As a way to tackle the parametric setting, we propose a MOR approach based on marginalization: we use MRI to build local frequency surrogates at different parameter configurations, and then we combine these local surrogates to obtain a global reduced model. Several issues arise when carrying out this &quot;combination&quot; step. In this thesis, we propose a practical algorithm for this, relying on matching the partial fraction expansions of the local surrogates term-by-term.<br>
+Several numerical experiments are carried out as a way to showcase the effectiveness of our proposed approaches, both in the non-parametric and parametric settings. Our &quot;case studies&quot; are selected as simplified versions of problems of practical interest. Notably, we include examples of resonant behavior of mechanical structures with uncertain material properties, and of impedance modeling of distributed electrical circuits with a modest number of design parameters.'
+year: '2021'
+supervisor: 'F. Nobile'
+kind: 'PhD thesis'
+venue: 'Scientific Computing and Uncertainty Quantification, EPFL'
+link: 'https://infoscience.epfl.ch/record/289347/files/EPFL_TH9271.pdf'
+label: "thesis"
+---
+

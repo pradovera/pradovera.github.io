@@ -7,5 +7,5 @@ venue: "PDE afternoons"
 date: 2020-10-21
 location: "Vienna, A"
 label: "seminar"
-link: https://www.univie.ac.at/sfb65/#!/public/events/pde_afternoon/
+linkvenue: https://www.univie.ac.at/sfb65/#!/public/events/pde_afternoon/
 ---

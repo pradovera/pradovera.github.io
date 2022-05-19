@@ -8,5 +8,6 @@ date: 2020-09-07
 date2: 2020-09-10
 location: "Lausanne, CH"
 label: "poster"
-link: https://archiveweb.epfl.ch/morss2020.epfl.ch/
+linkvenue: https://archiveweb.epfl.ch/morss2020.epfl.ch/
+link: https://infoscience.epfl.ch/record/275492
 ---

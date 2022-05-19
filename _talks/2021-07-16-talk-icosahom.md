@@ -8,5 +8,5 @@ date: 2021-07-12
 date2: 2021-07-16
 location: "Vienna, A"
 label: "main"
-link: https://www.icosahom2020.org/
+linkvenue: https://www.icosahom2020.org/
 ---
