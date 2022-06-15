@@ -36,7 +36,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Davide Pradovera"
+  name             : "Davide Pradovera, PhD"
   avatar           : "profile.png"
   bio              : "Post-doctoral researcher in Computational Math"
   address          : "Oskar-Morgenstern-Platz 1, 1090 Vienna"
@@ -55,7 +55,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "pradovera"
+  github           : "pradovera"
   google_plus      :
   keybase          :
   instagram        :
