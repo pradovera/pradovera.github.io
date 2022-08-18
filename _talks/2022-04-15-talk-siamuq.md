@@ -6,7 +6,7 @@ permalink: /talks/2022-04-15-talk-siamuq
 venue: "SIAM UQ 22"
 date: 2022-04-12
 date2: 2022-04-15
-location: "Atlanta, US"
+location: "Atlanta, Georgia, US"
 label: "main"
 linkvenue: https://www.siam.org/conferences/cm/conference/uq22
 ---
