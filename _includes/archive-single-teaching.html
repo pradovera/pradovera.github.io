@@ -38,12 +38,22 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    {% if post.date %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
-    {% elsif post.year %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
+    {% if post.venue %}
+        {% if post.date %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
+        {% elsif post.year %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
+        {% else %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
+        {% endif %}
     {% else %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
+        {% if post.date %}
+          <p> {{ post.type }}, {{ post.date | date: "%Y" }} </p>
+        {% elsif post.year %}
+          <p> {{ post.type }}, {{ post.year }} </p>
+        {% else %}
+          <p> {{ post.type }} </p>
+        {% endif %}
     {% endif %}
     {% if post.student %}
       <p> Student: {{ post.student }} </p>
