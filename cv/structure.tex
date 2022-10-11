@@ -72,11 +72,13 @@
   {\par\xdef\tpd{\the\prevdepth}\egroup
    \prevdepth=\tpd}
 
+\usepackage{mathtools}
 \usepackage{marginnote} % Required to output text in the margin
-\newcommand{\years}[1]{\strut\marginnote{{\scriptsize #1~}$[$}}
+\newcommand{\years}[1]{\strut\marginnote{{\scriptsize #1~}$\mathrlap{\lceil}\lfloor$}}
 \newcommand{\yearsplus}[1]{\strut\marginnote{{\scriptsize #1~}$\lceil$}}
-\newcommand{\yearszero}{}%\strut\marginnote{$|\hspace{.1em}$}}
+\newcommand{\yearszero}{}%\strut\marginnote{$\mathrlap{\phantom{\lceil}}|$}}
 \newcommand{\yearsminus}{\strut\marginnote{$\lfloor$}}
+\newcommand{\yyears}[1]{\strut\marginnote{{\scriptsize #1~}$($}\hspace{2mm}}
 \setlength{\marginparsep}{0pt} % Move the margin content closer to the text
 \reversemarginpar % Margin text to be output into the left margin instead of the default right margin
 
