@@ -40,9 +40,10 @@ author:
   avatar           : "profile.png"
   bio              : "Post-doctoral researcher in Computational Math"
   address          : "Oskar-Morgenstern-Platz 1, 1090 Vienna"
-  location         : "09.128, Oskar-Morgenstern-Platz 1"
+  location         : "Oskar-Morgenstern-Platz 1"
   location2        : "1090 Vienna, Austria"
-  employer         : "University of Vienna"
+  employer         : "Office 09.128"
+  employer2        : "University of Vienna"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
   email_work       : "davide.pradovera@univie.ac.at"

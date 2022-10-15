@@ -20,6 +20,7 @@
   </div>
 
   <div class="author__urls-wrapper">
+    <button class="btn btn--inverse"><i class="fa fa-fw fa-address-card" aria-hidden="true"></i> Info</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
           {% if author.location2 %}
@@ -31,6 +32,9 @@
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
+        {% if author.employer2 %}
+          <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer2 }}</li>
+        {% endif %}
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
