@@ -42,8 +42,8 @@ author:
   address          : "Oskar-Morgenstern-Platz 1, 1090 Vienna"
   location         : "Oskar-Morgenstern-Platz 1"
   location2        : "1090 Vienna, Austria"
-  employer         : "Office 09.128"
-  employer2        : "University of Vienna"
+  employer         : "University of Vienna"
+  office           : "Office 09.128"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
   email_work       : "davide.pradovera@univie.ac.at"
