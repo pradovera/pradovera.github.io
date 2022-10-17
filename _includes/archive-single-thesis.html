@@ -14,18 +14,6 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
@@ -33,22 +21,12 @@
         {{ title }}
       {% endif %}
     </h3>
-    
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-      <p class="page__meta">{{ post.kind }}{% if post.supervisor %}, supervised by {{ post.supervisor }}{% endif %}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
-    {% if post.doi %}
-      <p class="page__noskip">DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
-    {% elsif post.paperurl %}
-      <p class="page__noskip">URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% endif %}
-
+      <p class="page__meta">&nbsp;&nbsp;{{ post.kind }}{% if post.supervisor %}, supervised by {{ post.supervisor }}{% endif %}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
     {% if post.excerpt %}
         <h6 class="archive__item-summary">
           <details>
               <summary><b>Abstract</b></summary>
-              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify }}</p>
+              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           </details>
         </h6>
     {% endif %}

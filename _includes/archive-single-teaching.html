@@ -14,18 +14,6 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
@@ -33,46 +21,17 @@
         {{ title }}
       {% endif %}
     </h3>
-    
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-    {% if post.venue %}
-        {% if post.date %}
-          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
-        {% elsif post.year %}
-          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
-        {% else %}
-          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i> </p>
-        {% endif %}
-    {% else %}
-        {% if post.date %}
-          <p class="page__meta"> {{ post.type }}, {{ post.date | date: "%Y" }} </p>
-        {% elsif post.year %}
-          <p class="page__meta"> {{ post.type }}, {{ post.year }} </p>
-        {% else %}
-          <p class="page__meta"> {{ post.type }} </p>
-        {% endif %}
-    {% endif %}
+    <p class="page__meta">&nbsp;&nbsp;{{ post.type }}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
     {% if post.student %}
-      <p class="archive__item-excerpt" itemprop="description"> Student: {{ post.student }} </p>
+      <p class="archive__item-excerpt" itemprop="description">&nbsp;Student: {{ post.student }} </p>
     {% endif %}
-    
-    {% if post.doi %}
-      <p class="archive__item-excerpt">DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
-    {% elsif post.paperurl %}
-      <p class="archive__item-excerpt">URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% endif %}
-
     {% if post.summary %}
-        <h6 class="archive__item-excerpt">
+        <h6 class="archive__item-summary">
           <details>
-              <summary>Abstract</summary>
-              <p class="archive__item-excerpt" itemprop="description">{{ post.summary | markdownify }}</p>
+              <summary><b>Abstract</b></summary>
+              <p class="archive__item-summary" itemprop="description">{{ post.summary | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           </details>
         </h6>
     {% endif %}
-
   </article>
 </div>

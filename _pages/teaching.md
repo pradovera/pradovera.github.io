@@ -15,7 +15,7 @@ During my time at EPFL, I have contributed to the following courses as teaching 
   {% endif %}
 {% endfor %}
 
-&nbsp;
+<h4>&nbsp;</h4>
 
 I have also acted as supervisor in the following projects carried out by individual students.
 
@@ -36,7 +36,7 @@ During my undergrad and grad studies, I have given special preparatory courses f
   {% endif %}
 {% endfor %}
 
-&nbsp;
+<h4>&nbsp;</h4>
 
 Also, during my grad studies, I have done scientific tutoring for high-school students in need. This was at the scientific high school L. Respighi in my hometown of Piacenza, I. My involvement includes, among other things, preparation of course and exercise material, as well as preparation and grading of weekly assignments and exams.
 

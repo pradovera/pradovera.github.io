@@ -14,78 +14,14 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
-    <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        {{ title }}
-      {% endif %}
-    </h3>
-    
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-      <p class="page__noskip">{{ post.author | markdownify }} </p>
-      {% if post.status %}
-        {% if post.venue %}
-          {% if post.date %}
-            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.year }}</p>
-          {% else %}
-            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i></p>
-          {% endif %}
-        {% else %}
-          {% if post.date %}
-            <p class="page__noskip">{{ post.status }}, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p class="page__noskip">{{ post.status }}, {{ post.year }}</p>
-          {% else %}
-            <p class="page__noskip">{{ post.status }}</p>
-          {% endif %}
-        {% endif %}
-      {% else %}
-        {% if post.venue %}
-          {% if post.date %}
-            <p class="page__noskip"><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p class="page__noskip"><i>{{ post.venue }}</i>, {{ post.year }}</p>
-          {% else %}
-            <p class="page__noskip"><i>{{ post.venue }}</i></p>
-          {% endif %}
-        {% else %}
-          {% if post.date %}
-            <p class="page__noskip">{{ post.date | date: "%Y" }}</p>
-          {% elsif post.year %}
-            <p class="page__noskip">{{ post.year }}</p>
-          {% endif %}
-        {% endif %}
-      {% endif %}
-    
-    {% if post.doi %}
-      <p class="page__noskip">DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
-    {% elsif post.paperurl %}
-      <p class="page__noskip">URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% endif %}
-
+    <h3 class="archive__item-title" itemprop="headline">{{ title }}</h3>
+      <p class="page__meta">&nbsp;&nbsp;{{ post.author | markdownify | remove: "<p>" | remove: "</p>" }} </p>
+      <p class="page__noskip">&nbsp;{{ post.status }}{% if post.venue %} in <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}{% if post.doi %}, DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a>{% elsif post.paperurl %}, URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a>{% endif %}</p>
     {% if post.excerpt %}
         <h6 class="archive__item-summary">
           <details>
               <summary><b>Abstract</b></summary>
-              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify }}</p>
+              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           </details>
         </h6>
     {% endif %}
