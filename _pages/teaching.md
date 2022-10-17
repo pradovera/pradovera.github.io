@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
@@ -25,8 +24,6 @@ I have also acted as supervisor in the following projects carried out by individ
     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}
-
-&nbsp;
 
 At the L. Respighi scientific high school
 -----

@@ -82,12 +82,12 @@
     {% endif %}
 
     {% if post.excerpt %}
-        <h6 class="archive__item-excerpt">
+        <p class="archive__item-summary">
           <details>
-              <summary>Abstract</summary>
-              <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+              <summary><b>Abstract</b></summary>
+              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify }}</p>
           </details>
-        </h6>
+        </p>
     {% endif %}
 
   </article>

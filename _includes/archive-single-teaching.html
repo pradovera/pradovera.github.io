@@ -40,29 +40,29 @@
 
     {% if post.venue %}
         {% if post.date %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
+          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
         {% elsif post.year %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
+          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.year }} </p>
         {% else %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
+          <p class="page__meta"> {{ post.type }}, <i>{{ post.venue }}</i> </p>
         {% endif %}
     {% else %}
         {% if post.date %}
-          <p> {{ post.type }}, {{ post.date | date: "%Y" }} </p>
+          <p class="page__meta"> {{ post.type }}, {{ post.date | date: "%Y" }} </p>
         {% elsif post.year %}
-          <p> {{ post.type }}, {{ post.year }} </p>
+          <p class="page__meta"> {{ post.type }}, {{ post.year }} </p>
         {% else %}
-          <p> {{ post.type }} </p>
+          <p class="page__meta"> {{ post.type }} </p>
         {% endif %}
     {% endif %}
     {% if post.student %}
-      <p> Student: {{ post.student }} </p>
+      <p class="archive__item-excerpt" itemprop="description"> Student: {{ post.student }} </p>
     {% endif %}
     
     {% if post.doi %}
-      <p>DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
+      <p class="archive__item-excerpt">DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
     {% elsif post.paperurl %}
-      <p>URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p class="archive__item-excerpt">URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
     {% if post.summary %}

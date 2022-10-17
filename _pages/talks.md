@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Talks at conferences"
 permalink: /talks/
 author_profile: true
@@ -11,10 +10,8 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-&nbsp;
-
 Seminars
-=====
+-----
 
 {% for post in site.talks reversed %}
   {% if post.label == "seminar" %}
@@ -22,10 +19,8 @@ Seminars
   {% endif %}
 {% endfor %}
 
-&nbsp;
-
 Posters
-=====
+-----
 
 {% for post in site.talks reversed %}
   {% if post.label == "poster" %}
@@ -33,10 +28,8 @@ Posters
   {% endif %}
 {% endfor %}
 
-&nbsp;
-
 Others
-=====
+-----
 
 {% for post in site.talks reversed %}
   {% if post.label == "other" %}
@@ -44,10 +37,8 @@ Others
   {% endif %}
 {% endfor %}
 
-&nbsp;
-
 Attendance at events
-=====
+-----
 
 {% for post in site.talks reversed %}
   {% if post.label == "attendance" %}

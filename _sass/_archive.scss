@@ -66,6 +66,16 @@
   }
 }
 
+.archive__item-summary {
+  margin-top: 0;
+  font-size: $type-size-7;
+
+  & + p {
+    font-size: $type-size-7;
+    margin-left: 0.5em;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
@@ -128,6 +138,10 @@
     display: none;
   }
 
+  .archive__item-summary {
+    display: none;
+  }
+
   @include breakpoint($small) {
     @include gallery(5 of 10);
     .archive__item-teaser {
@@ -147,6 +161,11 @@
     .archive__item-excerpt {
       display: block;
       font-size: $type-size-6;
+    }
+
+    .archive__item-summary {
+      display: block;
+      font-size: $type-size-7;
     }
   }
 }
