@@ -38,56 +38,56 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-      <p class="archive__item-excerpt" itemprop="description">{{ post.author | markdownify }} </p>
+      <p class="page__noskip">{{ post.author | markdownify }} </p>
       {% if post.status %}
         {% if post.venue %}
           {% if post.date %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
           {% elsif post.year %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.year }}</p>
+            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i>, {{ post.year }}</p>
           {% else %}
-            <p>{{ post.status }} in <i>{{ post.venue }}</i></p>
+            <p class="page__noskip">{{ post.status }} in <i>{{ post.venue }}</i></p>
           {% endif %}
         {% else %}
           {% if post.date %}
-            <p>{{ post.status }}, {{ post.date | date: "%Y" }}</p>
+            <p class="page__noskip">{{ post.status }}, {{ post.date | date: "%Y" }}</p>
           {% elsif post.year %}
-            <p>{{ post.status }}, {{ post.year }}</p>
+            <p class="page__noskip">{{ post.status }}, {{ post.year }}</p>
           {% else %}
-            <p>{{ post.status }}</p>
+            <p class="page__noskip">{{ post.status }}</p>
           {% endif %}
         {% endif %}
       {% else %}
         {% if post.venue %}
           {% if post.date %}
-            <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+            <p class="page__noskip"><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
           {% elsif post.year %}
-            <p><i>{{ post.venue }}</i>, {{ post.year }}</p>
+            <p class="page__noskip"><i>{{ post.venue }}</i>, {{ post.year }}</p>
           {% else %}
-            <p><i>{{ post.venue }}</i></p>
+            <p class="page__noskip"><i>{{ post.venue }}</i></p>
           {% endif %}
         {% else %}
           {% if post.date %}
-            <p>{{ post.date | date: "%Y" }}</p>
+            <p class="page__noskip">{{ post.date | date: "%Y" }}</p>
           {% elsif post.year %}
-            <p>{{ post.year }}</p>
+            <p class="page__noskip">{{ post.year }}</p>
           {% endif %}
         {% endif %}
       {% endif %}
     
     {% if post.doi %}
-      <p>DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
+      <p class="page__noskip">DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a></p>
     {% elsif post.paperurl %}
-      <p>URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p class="page__noskip">URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
     {% if post.excerpt %}
-        <p class="archive__item-summary">
+        <h6 class="archive__item-summary">
           <details>
               <summary><b>Abstract</b></summary>
               <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify }}</p>
           </details>
-        </p>
+        </h6>
     {% endif %}
 
   </article>

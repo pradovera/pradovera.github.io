@@ -27,6 +27,7 @@
     @include full();
 
     .page__content,
+    .page__noskip,
     .page__meta,
     .page__share {
       @include full();
@@ -37,6 +38,10 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+
+  & + .page__noskip {
+    margin-top: -0.5em;
+  }
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -139,6 +144,7 @@
     }
 
     .page__title,
+    .page__noskip,
     .page__meta,
     .page__lead,
     .btn {
@@ -215,6 +221,31 @@
 }
 
 .page__share-title {
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+
+
+/*
+   Page noskip
+   ========================================================================== */
+
+.page__noskip {
+  margin-top: 2em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.page__noskip-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;

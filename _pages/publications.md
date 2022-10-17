@@ -40,4 +40,4 @@ Theses and project reports
   {% if post.label == "thesis" %}
     {% include archive-single-thesis.html %}
   {% endif %}
-{% endfor %}`
+{% endfor %}
