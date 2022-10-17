@@ -21,10 +21,10 @@
         {{ title }}
       {% endif %}
     </h3>
-    <p class="page__meta">&nbsp;&nbsp;{{ post.type }}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
     {% if post.student %}
-      <p class="archive__item-excerpt" itemprop="description">&nbsp;Student: {{ post.student }} </p>
+      <p class="page__meta">&nbsp;&nbsp;Student: {{ post.student }} </p>
     {% endif %}
+    <p class="archive__item-excerpt" itemprop="description">&nbsp;{{ post.type }}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
     {% if post.summary %}
         <h6 class="archive__item-summary">
           <details>
