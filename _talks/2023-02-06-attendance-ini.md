@@ -2,7 +2,7 @@
 title: "Mathematical theory and applications of multiple wave scattering"
 collection: talks
 type: "Workshop"
-permalink: /talks/
+permalink: /talks/2023-02-06-attendance-ini
 venue: "INI"
 date: 2023-02-06
 date2: 2023-02-10
