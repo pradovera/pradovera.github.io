@@ -4,7 +4,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Vienna, A
+Vienna, Austria
 -----
 
 During my time at the University of Vienna, I have been in charge of the following courses.
@@ -16,7 +16,7 @@ During my time at the University of Vienna, I have been in charge of the followi
 {% endfor %}
 
 
-Lausanne, CH
+Lausanne, Switzerland
 -----
 
 During my time at EPFL, I have contributed to the following courses as teaching assistant. My involvement includes, among other things, preparation of course and exercise material, as well as preparation and grading of weekly assignments and exams.
@@ -47,7 +47,7 @@ Later, I have also contributed to the following doctoral course as invited lectu
   {% endif %}
 {% endfor %}
 
-Piacenza, I
+Piacenza, Italy
 -----
 
 During my undergrad and grad studies, I have given special preparatory courses for high-school-level students participating in scientific competitions. This was at the scientific high school L. Respighi in my hometown of Piacenza, I. My involvement includes, among other things, preparation of course and exercise material.

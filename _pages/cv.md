@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: cv_page
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -7,5 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Download my CV in PDF format: [here](CV_Pradovera.pdf){: .btn}
-
+<iframe src="https://pradovera.github.io/cv/CV_Pradovera.pdf" width="80%" height="85%">
