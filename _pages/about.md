@@ -15,7 +15,7 @@ I was awarded my PhD title in Mathematics at EPF Lausanne in December 2021. My P
 
 I have also contributed to the organization of the [model order reduction summer school 2020](https://archiveweb.epfl.ch/morss2020.epfl.ch/), a virtual event hosted at EPFL with the objective of disseminating knowledge on model order reduction.
 
-I love teaching, and I find it especially rewarding to help students discover the "truth" hidden behind the printed words on the textbook.
+As a teacher, my goal is empowering students to be active learners, able to discover the "truth" hidden behind the printed words on the textbook.
 
 Research interests
 -----
