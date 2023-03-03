@@ -1,5 +1,5 @@
 ---
-title: "Mathematical theory and applications of multiple wave scattering"
+title: "Mathematical theory and applications of multiple wave scattering - Canonical scattering problems"
 collection: talks
 type: "Workshop"
 permalink: /talks/2023-02-06-attendance-ini
