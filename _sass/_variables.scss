@@ -55,7 +55,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #252a34;
 $background-color           : #252a34;
-$code-background-color      : mix(#000, $background-color, 15%);
+$code-background-color      : mix(#fff, $background-color, 10%);
 $code-background-color-dark : mix(#000, $background-color, 20%);
 $text-color                 : #eaeaea;
 $border-color               : #fff;
@@ -94,7 +94,7 @@ $link-color                 : mix(#fff, $info-color, 15%) !default;
 $link-color-hover           : mix(#000, $link-color, 25%) !default;
 $link-color-visited         : mix(#fff, $link-color, 15%) !default;
 $masthead-link-color        : $primary-color !default;
-$masthead-link-color-hover  : mix(#fff, $primary-color, 25%) !default;
+$masthead-link-color-hover  : mix(#fff, $primary-color, 50%) !default;
 $navicon-link-color-hover   : mix(#fff, $primary-color, 75%) !default;
 
 
