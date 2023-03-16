@@ -26,6 +26,6 @@
           <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;{{ post.date | date: '%B %d, %Y' }}</p>
         {% endif %}
     {% endif %}
-    <p class="archive__item-excerpt" itemprop="description">&nbsp;{{post.type}}{% if post.venue %}, {{post.venue}}{% endif %}, {{post.location}}</p>
+    <h6 class="archive__item-excerpt" itemprop="description">&nbsp;{{post.type}}{% if post.venue %}, {{post.venue}}{% endif %}, {{post.location}}</h6>
   </article>
 </div>

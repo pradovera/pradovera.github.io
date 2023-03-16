@@ -27,19 +27,18 @@
   }
 }
 
-.archive__subtitle {
-  margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
-  border-bottom: 1px solid $border-color;
-
-  + .list__item .archive__item-title {
-    margin-top: 1em;
-  }
+.archive__item {
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  margin-top: .6em;
+  margin-bottom: 0;
 }
 
 .archive__item-title {
+  margin-top: 0;
   margin-bottom: .2em;
   font-family: $sans-serif-narrow;
 
@@ -52,7 +51,6 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 2em;
     border-bottom: none;
   }
 }
@@ -140,8 +138,11 @@
     margin: 0 0 4px;
   }
 
+  .archive__item {
+    margin-top: .7em;
+  }
+
   .archive__item-title {
-    margin-top: 1em;
     font-size: $type-size-5;
   }
 

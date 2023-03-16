@@ -17,13 +17,11 @@
     <h3 class="archive__item-title" itemprop="headline">{{ title }}</h3>
       <p class="page__meta">&nbsp;&nbsp;{{ post.author | markdownify | remove: "<p>" | remove: "</p>" }} </p>
       <p class="page__noskip">&nbsp;{{ post.status }}{% if post.venue %} in <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}{% if post.doi %}, DOI: <a href="https://doi.org/{{ post.doi }}"><u>{{ post.doi }}</u></a>{% elsif post.paperurl %}, URL: <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a>{% endif %}</p>
-    {% if post.excerpt %}
-        <h6 class="archive__item-summary">
-          <details>
-              <summary><b>Abstract</b></summary>
-              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-          </details>
-        </h6>
-    {% endif %}
+    <h6 class="archive__item-summary">
+      <details>
+          <summary><b>Abstract</b></summary>
+          <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      </details>
+    </h6>
   </article>
 </div>

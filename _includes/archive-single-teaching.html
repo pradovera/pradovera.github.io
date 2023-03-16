@@ -24,14 +24,6 @@
     {% if post.student %}
       <p class="page__meta">&nbsp;&nbsp;Student: {{ post.student }} </p>
     {% endif %}
-    <p class="archive__item-excerpt" itemprop="description">&nbsp;{{ post.type }}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
-    {% if post.summary %}
-        <h6 class="archive__item-summary">
-          <details>
-              <summary><b>Abstract</b></summary>
-              <p class="archive__item-summary" itemprop="description">{{ post.summary | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-          </details>
-        </h6>
-    {% endif %}
+    <h6 class="archive__item-excerpt" itemprop="description">&nbsp;{{ post.type }}{% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</h6>
   </article>
 </div>

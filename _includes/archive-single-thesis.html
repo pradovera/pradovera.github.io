@@ -22,13 +22,11 @@
       {% endif %}
     </h3>
       <p class="page__meta">&nbsp;&nbsp;{{ post.kind }}{% if post.supervisor %}, supervised by {{ post.supervisor }}{% endif %}{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% elsif post.year %}, {{ post.year }}{% endif %}</p>
-    {% if post.excerpt %}
-        <h6 class="archive__item-summary">
-          <details>
-              <summary><b>Abstract</b></summary>
-              <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-          </details>
-        </h6>
-    {% endif %}
+    <h6 class="archive__item-summary">
+      <details>
+          <summary><b>Abstract</b></summary>
+          <p class="archive__item-summary" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      </details>
+    </h6>
   </article>
 </div>
