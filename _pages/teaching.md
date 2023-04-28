@@ -71,7 +71,7 @@ Also, during my grad studies, I have done scientific tutoring for high-school st
 Teaching education
 -----
 
-In the pursuit of a better understanding of teaching and learning, I have attended the following events.
+In pursuit of a better understanding of teaching and learning, I have attended the following events.
 
 {% for post in site.teaching reversed %}
   {% if post.label == "education" %}
