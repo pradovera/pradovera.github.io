@@ -42,6 +42,12 @@
 }
 
 %----------------------------------------------------------------------------------------
+%	COLOURS
+%----------------------------------------------------------------------------------------
+
+\usepackage[usenames, dvipsnames]{xcolor} % Required for specifying colours by name
+
+%----------------------------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------------------------
 
@@ -72,21 +78,18 @@
   {\par\xdef\tpd{\the\prevdepth}\egroup
    \prevdepth=\tpd}
 
-\usepackage{mathtools}
+\usepackage{tikz}
 \usepackage{marginnote} % Required to output text in the margin
-\newcommand{\years}[1]{\strut\marginnote{{\scriptsize #1~}$\mathrlap{\lceil}\lfloor$}}
-\newcommand{\yearsplus}[1]{\strut\marginnote{{\scriptsize #1~}$\lceil$}}
-\newcommand{\yearszero}{}%\strut\marginnote{$\mathrlap{\phantom{\lceil}}|$}}
-\newcommand{\yearsminus}{\strut\marginnote{$\lfloor$}}
+\newlength{\tikzbracketshift}\setlength{\tikzbracketshift}{-1mm}
+\newlength{\tikzbracketwidth}\setlength{\tikzbracketwidth}{.75mm}
+\newlength{\tikzbracketheight}\setlength{\tikzbracketheight}{3.75mm}
+\newcommand{\years}[1]{\strut\marginnote{{\scriptsize #1}~~\raisebox{\tikzbracketshift}{\tikz \draw (\tikzbracketwidth,0) -- (0,0) -- (0,\tikzbracketheight) -- (\tikzbracketwidth,\tikzbracketheight);}}}
+\newcommand{\yearsplus}[1]{\strut\marginnote{{\scriptsize #1}~~\raisebox{\tikzbracketshift}{\tikz \draw (0,0) -- (0,\tikzbracketheight) -- (\tikzbracketwidth,\tikzbracketheight);}}}
+\newcommand{\yearszero}{}%\strut\marginnote{\raisebox{\tikzbracketshift}{\tikz \draw (0,0) -- (0,\tikzbracketheight);}}}
+\newcommand{\yearsminus}{\strut\marginnote{\raisebox{\tikzbracketshift}{\tikz \draw (\tikzbracketwidth,0) -- (0,0) -- (0,\tikzbracketheight);}}}
 \newcommand{\yyears}[1]{\strut\marginnote{{\scriptsize #1~}$($}\hspace{2mm}}
 \setlength{\marginparsep}{0pt} % Move the margin content closer to the text
 \reversemarginpar % Margin text to be output into the left margin instead of the default right margin
-
-%----------------------------------------------------------------------------------------
-%	COLOURS
-%----------------------------------------------------------------------------------------
-
-\usepackage[usenames, dvipsnames]{xcolor} % Required for specifying colours by name
 
 %----------------------------------------------------------------------------------------
 %	LINKS
