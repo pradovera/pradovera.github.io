@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "News and upcoming events"
+title: "News"
 permalink: /news/
 author_profile: true
 ---

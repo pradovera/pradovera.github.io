@@ -1,8 +1,11 @@
 ---
-title: "Talks at conferences"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
+
+Talks at conferences
+-----
 
 {% for post in site.talks reversed %}
   {% if post.label == "main" %}

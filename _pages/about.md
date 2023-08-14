@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+About me
+-----
 
 Since April 2022, I have been a university assistant and post-doctoral researcher at the University of Vienna in the "[Numerics of PDEs](https://www.mat.univie.ac.at/~perugia/index.html)" group, with Prof. Ilaria Perugia. My main interests here are the development and analysis of model order reduction algorithms for the surrogate modeling of parametric time- and frequency-domain wave-propagation applications, and, more generally, the numerical modeling and approximation of such problems.
 
@@ -32,8 +34,5 @@ My research interests lie at the intersection of:
 
 - scientific computing (high-performance and parallel programming)
 
-Being an _applied computational mathematician_, my research work so far has been characterized by a balance between theory (possibility of approximation, convergence, stability) and applications (optimal design problems in electrical and mechanical engineering, simulation of wave propagation). In all of this, I have strived for algorithmic efficiency and open-source coding: see [here](https://c4science.ch/source/RROMPy/) for the open-source MOR library `RROMPy` that I have developed during my PhD and [here](https://zenodo.org/search?q=%22Pradovera,%20Davide%22) for some of my open-source contributions on ZENODO.
-
-
-
+Being an _applied computational mathematician_, my research work so far has been characterized by a balance between theory (possibility of approximation, convergence, stability) and applications (optimal design problems in electrical and mechanical engineering, simulation of wave propagation). In all of this, I have strived for algorithmic efficiency and open-source coding: see [here](https://c4science.ch/source/RROMPy/) for the open-source MOR library `RROMPy` that I have developed during my PhD, and [here](https://zenodo.org/search?q=%22Pradovera,%20Davide%22) and [here](https://github.com/pradovera) for some of my open-source contributions on ZENODO and GitHub, respectively.
 
