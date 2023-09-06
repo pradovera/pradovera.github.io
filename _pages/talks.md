@@ -22,6 +22,15 @@ Seminars
   {% endif %}
 {% endfor %}
 
+Organized events
+-----
+
+{% for post in site.talks reversed %}
+  {% if post.label == "chair" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
 Posters
 -----
 
