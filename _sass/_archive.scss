@@ -35,6 +35,8 @@
   padding-top: 5px;
   margin-top: .6em;
   margin-bottom: 0;
+  transition: transform 0.5s ease;
+  transform-origin: center 25%;
 }
 
 .archive__item-title {
@@ -68,6 +70,7 @@
   margin-top: 0;
   margin-left: 0.5em;
   font-size: $type-size-6;
+  font-weight: normal;
 
   & + p {
     font-size: $type-size-6;
@@ -85,7 +88,7 @@
 
 .archive__item:hover {
   background-color: $code-background-color;
-
+  transform: scale(1.05);
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
