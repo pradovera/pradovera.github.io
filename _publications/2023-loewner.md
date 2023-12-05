@@ -7,7 +7,7 @@ year: '2023'
 status: 'Published'
 venue: 'Adv. Comput. Math. 49'
 author: '**Davide Pradovera**'
-paperurl: '10.1007/s10444-023-10091-7'
+doi: '10.1007/s10444-023-10091-7'
 label: "main"
 ---
 
