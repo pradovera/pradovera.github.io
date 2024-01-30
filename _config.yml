@@ -39,17 +39,18 @@ author:
   name             : "Davide Pradovera, PhD"
   avatar           : "profile.png"
   bio              : "Post-doctoral researcher in Computational Math"
-  address          : "Oskar-Morgenstern-Platz 1, 1090 Vienna"
-  location         : "Oskar-Morgenstern-Platz 1"
-  location2        : "1090 Vienna, Austria"
-  employer         : "University of Vienna"
-  office           : "Office 09.128"
+  address          : "KTH, Matematik, Lindstedtsvägen 25, 10044 Stockholm, Sweden"
+  location         : "KTH, Matematik"
+  location2        : "Lindstedtsvägen 25"
+  location3        : "10044 Stockholm, Sweden"
+  employer         : "KTH"
+  office           : "Office 3611"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
-  email_work       : "davide.pradovera@univie.ac.at"
+  email_work       : "davidepr@kth.se"
   email_private    : "davidepradovera@gmail.com"
   researchgate     : 
-  uri              : "https://ufind.univie.ac.at/en/person.html?id=1002082"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :

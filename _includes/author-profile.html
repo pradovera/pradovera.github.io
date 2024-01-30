@@ -31,7 +31,11 @@
       {% endif %}
       {% if author.location %}
           {% if author.location2 %}
-            <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}<br>{{ author.location2 }}</a></li>
+              {% if author.location3 %}
+                <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }},{{ author.location3 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}<br>{{ author.location2 }}<br>{{ author.location3 }}</a></li>
+              {% else %}
+                <li><a href="https://www.google.com/maps/search/{{ author.location }},{{ author.location2 }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}<br>{{ author.location2 }}</a></li>
+              {% endif %}
           {% else %}
             <li><a href="https://www.google.com/maps/search/{{ author.location }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</a></li>
           {% endif %}
