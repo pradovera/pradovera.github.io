@@ -24,7 +24,7 @@
     <ul class="author__urls social-icons">
       {% if author.employer %}
         {% if author.office %}
-          <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}<br>{{ author.office }}</li>
+          <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}, {{ author.office }}</li>
         {% else %}
           <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
         {% endif %}
