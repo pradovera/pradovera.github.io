@@ -5,7 +5,7 @@ type: "Seminar (virtual)"
 permalink: /talks/2020-10-21-talk-vienna
 venue: "PDE afternoons"
 date: 2020-10-21
-location: "Vienna, A"
+location: "Vienna, AT"
 label: "seminar"
 linkvenue: https://www.univie.ac.at/sfb65/#!/public/events/pde_afternoon/
 ---

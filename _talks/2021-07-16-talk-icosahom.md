@@ -6,7 +6,7 @@ permalink: /talks/2021-07-16-talk-icosahom
 venue: "ICOSAHOM 2020/2021"
 date: 2021-07-12
 date2: 2021-07-16
-location: "Vienna, A"
+location: "Vienna, AT"
 label: "main"
 linkvenue: https://www.icosahom2020.org/
 ---

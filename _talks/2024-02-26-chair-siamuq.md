@@ -6,7 +6,7 @@ permalink: /talks/2024-02-26-chair-siamuq
 venue: "SIAM UQ24"
 date: 2024-02-26
 date2: 2024-03-01
-location: "Trieste, I"
+location: "Trieste, IT"
 label: "chair"
 linkvenue: https://www.siam.org/conferences/cm/conference/uq24
 ---

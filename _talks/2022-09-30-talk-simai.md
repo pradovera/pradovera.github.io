@@ -6,7 +6,7 @@ permalink: /talks/2022-09-30-talk-simai
 venue: "GIMC SIMAI YOUNG 2022"
 date: 2022-09-29
 date2: 2022-09-30
-location: "Pavia, I"
+location: "Pavia, IT"
 label: "main"
 linkvenue: http://gimcsimaiyoung2022.unipv.it/
 ---
