@@ -10,7 +10,7 @@ year: '2021'
 supervisor: 'F. Nobile'
 kind: 'PhD thesis'
 venue: 'Scientific Computing and Uncertainty Quantification, EPFL'
-link: 'https://infoscience.epfl.ch/record/289347/files/EPFL_TH9271.pdf'
+doi: '10.5075/epfl-thesis-9271'
 label: "thesis"
 ---
 

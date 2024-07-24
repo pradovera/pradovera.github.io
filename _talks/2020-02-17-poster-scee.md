@@ -9,5 +9,5 @@ date2: 2020-02-20
 location: "Eindhoven, NL"
 label: "poster"
 linkvenue: https://www.scee-conferences.org/pages/scee-2020
-link: https://infoscience.epfl.ch/record/275492
+link: https://infoscience.epfl.ch/handle/20.500.14299/166468
 ---
