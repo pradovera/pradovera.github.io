@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'Int. J. Num. Meth. Eng. 125'
 author: 'Phillip Huwiler, **Davide Pradovera**, and J&uuml;rg Schiffmann'
 doi: '10.1002/nme.7487'
+paperurl: 'https://infoscience.epfl.ch/handle/20.500.14299/203543'
 label: "main"
 ---
 

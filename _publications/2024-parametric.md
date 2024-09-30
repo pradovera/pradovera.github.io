@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'J. Comp. Phys. 519'
 author: '**Davide Pradovera** and Alessandro Borghi'
 doi: '10.1016/j.jcp.2024.113384'
+paperurl: 'https://arxiv.org/abs/2308.05335'
 label: "main"
 ---
 

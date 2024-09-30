@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'PAMM 22'
 author: '**Davide Pradovera**'
 doi: '10.1002/pamm.202200032'
+paperurl: 'https://arxiv.org/abs/2209.13205'
 label: "proceedings"
 ---
 

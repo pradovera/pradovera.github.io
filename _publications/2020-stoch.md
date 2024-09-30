@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'Adv. Comput. Math. 46'
 author: 'Francesca Bonizzoni, Fabio Nobile, Ilaria Perugia, and **Davide Pradovera**'
 doi: '10.1007/s10444-020-09749-3'
+paperurl: 'https://arxiv.org/abs/1805.05031'
 label: "main"
 ---
 

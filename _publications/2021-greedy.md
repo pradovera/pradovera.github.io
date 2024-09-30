@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'Sci. Comput. Electr. Eng. 36'
 author: '**Davide Pradovera** and Fabio Nobile'
 doi: '10.1007/978-3-030-84238-3_16'
+paperurl: 'https://infoscience.epfl.ch/handle/20.500.14299/166526'
 label: "proceedings"
 ---
 

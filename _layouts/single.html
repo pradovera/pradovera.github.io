@@ -82,12 +82,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {% if page.doi %}
+        {% if page.doi and page.paperurl%}
+          <p>DOI: <a href="https://doi.org/{{ page.doi }}"><u>{{ page.doi }}</u></a>, <a href="{{ page.paperurl }}"><u>preprint link</u></a></p>
+        {% elsif page.doi %}
           <p>DOI: <a href="https://doi.org/{{ page.doi }}"><u>{{ page.doi }}</u></a></p>
         {% elsif page.paperurl %}
-          <p>URL: <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p><a href="{{ page.paperurl }}"><u>preprint link</u></a></p>
         {% endif %}
-    
+
         {{ content }}
 
         {% if page.excerpt %}

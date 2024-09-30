@@ -8,6 +8,7 @@ status: 'Published'
 venue: 'Math. Eng. 5'
 author: 'Francesca Bonizzoni, **Davide Pradovera**, and Michele Ruggeri'
 doi: '10.3934/mine.2023074'
+paperurl: 'https://arxiv.org/abs/2112.04302'
 label: "main"
 ---
 
