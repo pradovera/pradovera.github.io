@@ -4,6 +4,27 @@ permalink: /teaching/
 author_profile: true
 ---
 
+In Stockholm, Sweden
+-----
+
+During my time at KTH, I have been in charge of the following courses.
+
+{% for post in site.teaching reversed %}
+  {% if post.label == "assistant_kth" %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+
+<h4>&nbsp;</h4>
+
+I have also acted as supervisor in the following projects carried out by individual students.
+
+{% for post in site.teaching reversed %}
+  {% if post.label == "project_kth" %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+
 In Vienna, Austria
 -----
 
@@ -14,7 +35,6 @@ During my time at the University of Vienna, I have been in charge of the followi
     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}
-
 
 In Lausanne, Switzerland
 -----
