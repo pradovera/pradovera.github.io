@@ -12,7 +12,7 @@ About me
 
 Since February 2024, I have been a post-doctoral researcher at KTH in the [section of Numerical Mathematics](https://www.kth.se/directory/s/sf/sfg?l=en), with Prof. Sara Zahedi. My main interests here are the development and analysis of model order reduction algorithms for the surrogate modeling of parametric multiphase flow problems.
 
-Since October 2024, I have also acted as chair of the [Numerical Analysis seminar series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000) at KTH.
+Since October 2024, I have also acted as chair of the [Numerical Analysis seminar series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000) at KTH. In 2025, I have also contributed to organizing career development activities for PhDs and postdocs in Math at KTH.
 
 Before coming to Stockholm, I was a university assistant and post-doctoral researcher at the University of Vienna in the "[Numerics of PDEs](https://www.mat.univie.ac.at/~perugia/index.html)" group, with Prof. Ilaria Perugia.
 
