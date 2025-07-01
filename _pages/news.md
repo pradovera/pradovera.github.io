@@ -21,6 +21,6 @@ author_profile: true
 
 &nbsp;
 
-*Last updated in November 2023*
+*Last updated in July 2025*
 
 
