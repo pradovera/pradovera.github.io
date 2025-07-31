@@ -38,16 +38,16 @@ analytics:
 author:
   name             : "Davide Pradovera, PhD"
   avatar           : "profile.png"
-  bio              : "Post-doctoral researcher in Computational Math"
-  address          : "KTH, Matematik, Lindstedtsvägen 25, 10044 Stockholm, Sweden"
-  location         : "KTH, Matematik"
-  location2        : "Lindstedtsvägen 25"
-  location3        : "11428 Stockholm, Sweden"
-  employer         : "KTH"
-  office           : "office 3611"
+  bio              : "Assistant Professor in Computational Math"
+  address          : "Stockholm University, Matematiska institutionen, 10691 Stockholm, Sweden"
+  location         : "Matematiska institutionen"
+  location2        : "10691 Stockholm"
+  location3        : "Sweden"
+  employer         : "Stockholm University"
+  office           : "office D1332"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vMe774oAAAAJ"
-  email_work       : "davidepr@kth.se"
+  email_work       : "davide.pradovera@math.su.se"
   email_private    : "davidepradovera@gmail.com"
   researchgate     : 
   uri              :

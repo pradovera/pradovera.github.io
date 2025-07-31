@@ -7,35 +7,41 @@ redirect_from:
   - /about.html
 ---
 
-About me
+Since August 2025, I am an Assistant Professor at Stockholm University in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics), working on model order reduction methods for parametric multiphase flow problems. Since 2024, I have also served as chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000).
+
+Since October 2024, I have been chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000).
+
+Before that, I was a postdoctoral researcher at KTH and the University of Vienna, working with Prof. Sara Zahedi and Prof. Ilaria Perugia on numerical methods for parametric PDEs and multiphase flow.
+
+I completed my PhD at EPFL in 2021 under the supervision of Prof. Fabio Nobile.
+
+More about me
 -----
 
-Since February 2024, I have been a post-doctoral researcher at KTH in the [section of Numerical Mathematics](https://www.kth.se/directory/s/sf/sfg?l=en), with Prof. Sara Zahedi. My main interests here are the development and analysis of model order reduction algorithms for the surrogate modeling of parametric multiphase flow problems.
+I earned my PhD in Mathematics from EPFL in December 2021, under the supervision of Prof. Fabio Nobile, in the "Scientific Computing and Uncertainty Quantification" ([CSQI](https://www.epfl.ch/labs/csqi/)) group. My thesis, titled *Model order reduction based on functional rational approximants for parametric PDEs with meromorphic structure*, is available [here](https://doi.org/10.5075/epfl-thesis-9271). Prior to that, I completed my Master's degree at EPFL with a thesis on *Randomized low-rank approximation of matrices and tensors* ([link](/files/masters_randomized_low-rank.pdf)), supervised by Prof. Daniel Kressner.
 
-Since October 2024, I have also acted as chair of the [Numerical Analysis seminar series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000) at KTH. In 2025, I have also contributed to organizing career development activities for PhDs and postdocs in Math at KTH.
+During my time at EPFL, I was also involved in scientific outreach and organization, including the [Model Order Reduction Summer School 2020](https://archiveweb.epfl.ch/morss2020.epfl.ch/), a virtual event aimed at promoting advanced techniques in model order reduction.
 
-Before coming to Stockholm, I was a university assistant and post-doctoral researcher at the University of Vienna in the "[Numerics of PDEs](https://www.mat.univie.ac.at/~perugia/index.html)" group, with Prof. Ilaria Perugia.
+After my PhD, I held a postdoctoral and university assistant position at the University of Vienna in the ["Numerics of PDEs"](https://www.mat.univie.ac.at/~perugia/index.html) group led by Prof. Ilaria Perugia. After staying in Vienna for about two years, I became a postdoctoral researcher at KTH Royal Institute of Technology in the [Section of Numerical Mathematics](https://www.kth.se/directory/s/sf/sfg?l=en), working with Prof. Sara Zahedi between February 2024 and July 2025. My primary research interests there included surrogate modeling for parametric multiphase flows via model order reduction.
 
-I was awarded my PhD title in Mathematics at EPF Lausanne in December 2021. My PhD work in the "Scientific Computing and Uncertainty Quantification" ([CSQI](https://www.epfl.ch/labs/csqi/)) group, under the supervision of Prof. Fabio Nobile, is summarized in my thesis, titled "Model order reduction based on functional rational approximants for parametric PDEs with meromorphic structure" (available [here](https://doi.org/10.5075/epfl-thesis-9271)). Before that, I got my Master's degree at EPF Lausanne, with a thesis on "Randomized low-rank approximation of matrices and tensors" (available [here](/files/masters_randomized_low-rank.pdf)), under the supervision of Prof. Daniel Kressner.
+Since October 2024, I have served as chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000) at KTH. In 2025, I also contributed to organizing career development initiatives for PhD students and postdocs in mathematics at KTH.
 
-I have also contributed to the organization of the [model order reduction summer school 2020](https://archiveweb.epfl.ch/morss2020.epfl.ch/), a virtual event hosted at EPFL with the objective of disseminating knowledge on model order reduction.
+Since August 2025, I have been an assistant professor at Stockholm University, in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics). My research continues to focus on the development and analysis of model order reduction techniques for complex parametric problems.
 
-As a teacher, my goal is empowering students to be active learners, able to discover the "truth" hidden behind the printed words on the textbook.
+As a teacher, my goal is to empower students to become active learners, capable of critically engaging with material and uncovering the truths that lie beyond the printed page.
 
 Research interests
 -----
 
-My research interests lie at the intersection of:
+My research lies at the intersection of several areas in applied and computational mathematics:
 
-- model order reduction (non-intrusive surrogate modeling of parametric problems)
+- **Model order reduction**, with a focus on non-intrusive surrogate modeling for parametric problems  
+- **Approximation theory**, including rational and non-smooth approximation techniques  
+- **Numerical discretization of PDEs**, using finite element, boundary element, and virtual element methods  
+- **Wave propagation**, particularly for the wave, Maxwell, and Helmholtz equations and related scattering problems  
+- **Scientific computing**, with emphasis on high-performance and parallel programming
 
-- approximation theory (rational and non-smooth approximation)
+As an *applied computational mathematician*, my work aims to balance rigorous theoretical foundations (such as approximation guarantees, convergence analysis, and stability) with practical applications, including optimal design in electrical and mechanical engineering and the simulation of wave phenomena.
 
-- numerical discretization of PDEs (finite elements, boundary elements, virtual elements)
-
-- wave-propagation applications (wave, Maxwell, and Helmholtz equation, scattering problems)
-
-- scientific computing (high-performance and parallel programming)
-
-Being an _applied computational mathematician_, my research work so far has been characterized by a balance between theory (possibility of approximation, convergence, stability) and applications (optimal design problems in electrical and mechanical engineering, simulation of wave propagation). In all of this, I have strived for algorithmic efficiency and open-source coding: see [here](https://zenodo.org/search?q=%22Pradovera,%20Davide%22) and [here](https://github.com/pradovera) for some of my open-source contributions on ZENODO and GitHub, respectively, and [here](https://c4science.ch/source/RROMPy/) for the open-source MOR library `RROMPy` that I have developed during my PhD.
+Efficiency and reproducibility are central to my approach. I actively develop open-source software: you can find some of my contributions on [ZENODO](https://zenodo.org/search?q=%22Pradovera,%20Davide%22) and [GitHub](https://github.com/pradovera), as well as the model order reduction library [**RROMPy**](https://c4science.ch/source/RROMPy/), which I developed during my PhD.
 
