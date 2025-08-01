@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Since August 2025, I am an Assistant Professor at Stockholm University in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics), working on model order reduction methods for parametric multiphase flow problems. Since 2024, I have also served as chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000).
+Since August 2025, I am an Assistant Professor at Stockholm University in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics), working on model order reduction methods for complex parametric problems. Since 2024, I have also served as chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000).
 
 Since October 2024, I have been chair of the [Numerical Analysis Seminar Series](https://www.kth.se/math/kalender/semna?date=2024-10-01&length=10000).
 
-Before that, I was a postdoctoral researcher at KTH and the University of Vienna, working with Prof. Sara Zahedi and Prof. Ilaria Perugia on numerical methods for parametric PDEs and multiphase flow.
+Before that, I was a postdoctoral researcher at KTH and the University of Vienna, working with Prof. Sara Zahedi and Prof. Ilaria Perugia on numerical methods for parametric PDEs, wave propagation, and multiphase flow.
 
 I completed my PhD at EPFL in 2021 under the supervision of Prof. Fabio Nobile.
 
