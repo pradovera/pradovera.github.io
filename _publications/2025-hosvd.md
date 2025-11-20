@@ -8,6 +8,6 @@ status: 'Published'
 venue: '2025 ECC Proc.'
 author: 'Jan Heiland, Ion Victor Gosea, Ulrich R&ouml;mer, **Davide Pradovera**, Harikrishnan Sreekumar, and Sabine Langer'
 doi: '10.23919/ECC65951.2025.11186909'
-label: "main"
+label: "proceedings"
 ---
 
