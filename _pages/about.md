@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Since August 2025, I am an Assistant Professor at Stockholm University in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics). I work in *numerical analysis and scientific computing*, focusing on *approximation theory, model reduction, and computational linear algebra for complex PDE problems*.
+Since August 2025, I am an Assistant Professor at Stockholm University in the [Research Group of Computational Mathematics](https://www.su.se/english/research/research-groups/computational-mathematics). I work in **numerical analysis and scientific computing**, focusing on **approximation theory**, **model reduction**, and **computational linear algebra** for **complex PDE problems**.
 
 I am also chair of the [Numerical Analysis Seminar Series](https://www.math-stockholm.se/en/kalender/semna?date=2024-10-01&length=10000) since 2024 and of the [Computational Mathematics Seminar Series](https://www.math-stockholm.se/en/kalender/seminar-computation?date=2026-04-01&length=10000) since 2026.
 
