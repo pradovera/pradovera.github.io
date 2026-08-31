@@ -11,6 +11,8 @@ Since August 2025, I am an Assistant Professor at Stockholm University in the [R
 
 I am also chair of the [Numerical Analysis Seminar Series](https://www.math-stockholm.se/en/kalender/semna?date=2024-10-01&length=10000) since 2024 and of the [Computational Mathematics Seminar Series](https://www.math-stockholm.se/en/kalender/seminar-computation?date=2026-04-01&length=10000) since 2026.
 
+Since 2026 I'm also program responsible (*programansvarig*) for the [Bachelor's Programme in Mathematics and Computer Science](https://www.su.se/utbildning/utbildningskatalog/nm/nmdvk) at SU.
+
 Before working at SU, I was a postdoctoral researcher at KTH and the University of Vienna, working with Prof. Sara Zahedi and Prof. Ilaria Perugia on numerical methods for parametric PDEs, wave propagation, and multiphase flow.
 
 I completed my PhD at EPFL in 2021 under the supervision of Prof. Fabio Nobile.
