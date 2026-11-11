@@ -27,11 +27,16 @@ Conference proceedings
 Pending publications
 -----
 
+{% assign found = false %}
 {% for post in site.publications reversed %}
   {% if post.label == "pending" %}
     {% include archive-single.html %}
+    {% assign found = true %}
   {% endif %}
 {% endfor %}
+{% unless found %}
+  Nothing here as of now!
+{% endunless %}
 
 Theses and project reports
 -----
