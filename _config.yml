@@ -29,7 +29,7 @@ yandex_site_verification :
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -64,7 +64,7 @@ author:
   impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0003-0398-1580"
+  orcid            : "https://orcid.org/0000-0003-0398-1580"
   pinterest        :
   soundcloud       :
   stackoverflow    :
@@ -190,7 +190,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 # paginate_path: /page:num/
-timezone: Europe/Vienna # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
