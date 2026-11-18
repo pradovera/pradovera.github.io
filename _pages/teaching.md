@@ -7,7 +7,17 @@ author_profile: true
 In Stockholm, Sweden
 -----
 
-During my time at KTH, I have been in charge of the following courses.
+During my time at SU, I have been in charge of the following courses.
+
+{% for post in site.teaching reversed %}
+  {% if post.label == "teacher_su" %}
+    {% include archive-single-teaching.html %}
+  {% endif %}
+{% endfor %}
+
+<h4>&nbsp;</h4>
+
+Before then, I have been in charge of the following courses at KTH.
 
 {% for post in site.teaching reversed %}
   {% if post.label == "assistant_kth" %}
@@ -17,7 +27,7 @@ During my time at KTH, I have been in charge of the following courses.
 
 <h4>&nbsp;</h4>
 
-I have also acted as supervisor in the following projects carried out by individual students.
+I have also acted as supervisor in the following projects carried out by individual students at KTH.
 
 {% for post in site.teaching reversed %}
   {% if post.label == "project_kth" %}
